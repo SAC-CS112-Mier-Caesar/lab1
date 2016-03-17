@@ -21,7 +21,7 @@ public class lab1 {
   else if (userNum < computerNum)
     System.out.println("Your number is too small");
     
-  else (userNum == computerNum)
+  else if (userNum == computerNum)
     System.out.println("Your number is correct!");
 
     
