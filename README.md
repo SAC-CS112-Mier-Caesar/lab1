@@ -12,7 +12,7 @@ computerNum = 1 + (int) ( Math.random() * 10 );
 
 System.out.println("Enter a number: "); userNum = input.nextInt();
 
-if (userNum > computerNum || userNum < computerNum){ 
+if ((userNum > computerNum) || (userNum < computerNum)){ 
   System.out.println("Your number is either bigger or smaller than the computer number"); 
   }
 else { 
