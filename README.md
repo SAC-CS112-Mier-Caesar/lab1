@@ -15,11 +15,13 @@ public class lab1 {
     System.out.println("Enter a number: ");
     userNum = input.nextInt();
     
-  if(userNum > computerNum)
+  if (userNum > computerNum)
     System.out.println("Your number is too big");
-  if(userNum < computerNum)
+    
+  else if (userNum < computerNum)
     System.out.println("Your number is too small");
-  if(userNum == computerNum)
+    
+  else (userNum == computerNum)
     System.out.println("Your number is correct!");
 
     
