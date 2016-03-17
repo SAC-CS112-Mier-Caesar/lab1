@@ -1,27 +1,22 @@
-# lab1
+# lab3a
 
 import java.util.Scanner;
 
-public class lab1 { 
-  
-  public static void main(String args[]){
+public class lab3a {
 
-    Scanner input = new Scanner(System.in);
-    int userNum;
-    int computerNum;
-    
-    computerNum = 1 + (int) ( Math.random() * 10 );
-    
-    System.out.println("Enter a number: ");
-    userNum = input.nextInt();
-    
-  if(userNum > computerNum)
-    System.out.println("Your number is too big");
-  if(userNum < computerNum)
-    System.out.println("Your number is too small");
-  if(userNum == computerNum)
-    System.out.println("Your number is correct!");
+public static void main(String args[]){
 
-    
+Scanner input = new Scanner(System.in); int userNum; int computerNum;
+
+computerNum = 1 + (int) ( Math.random() * 10 );
+
+System.out.println("Enter a number: "); userNum = input.nextInt();
+
+if (userNum > computerNum || userNum < computerNum){ 
+  System.out.println("Your number is either bigger or smaller than the computer number"); 
+  }
+else { 
+System.out.println("Your number is correct!"); 
 }
-}
+
+} }
